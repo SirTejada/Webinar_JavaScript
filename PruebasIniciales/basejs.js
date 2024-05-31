@@ -1,3 +1,3 @@
 alert("Manolo branch alejandro");
-alert("Segundo alerta");
+alert("Segunda alerta");
 // prueba desde alejandro una vez merged
