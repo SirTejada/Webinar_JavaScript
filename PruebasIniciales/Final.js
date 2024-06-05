@@ -1,6 +1,6 @@
 document.querySelector(".button").addEventListener("click" ,function (event){
     
-    document.getElementsByClassName("telefono");
+    // document.getElementsByClassName("telefono");
     if (document.getElementById("texto").value !== "") {
         let frase = document.getElementById("texto");
         alert("Hola " + frase.value);
@@ -13,5 +13,5 @@ document.querySelector(".button").addEventListener("click" ,function (event){
 });
 
 document.getElementsByClassName("telefono").addEventListener("click" ,function (event){
-    alert("El jose")
+    alert("El jose");
 });

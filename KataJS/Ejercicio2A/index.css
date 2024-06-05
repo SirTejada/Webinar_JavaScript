@@ -1,0 +1,45 @@
+html,
+body,
+* {
+  font-family: sans-serif;
+  background-color: lightcyan;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+  text-decoration-line: underline;
+}
+
+input:not([type=submit]) {
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+input[type=submit] {
+  border: 2px solid;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1.2rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 3px 3px 3px;
+}
+
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+code {
+  font-family: monospace;
+  font-weight: bold;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 0px 5px;
+}
+
+code:empty {
+  display: none;
+}

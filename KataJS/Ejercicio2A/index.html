@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ordenar un arreglo</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <h1>Generador de arreglos</h1>
+    <p>Añade números separados por comas en el input. Al pulsar sobre el botón se mostrarán en el orden original sin valores no válidos y ordenados de menor a mayor bajo el formulario.</p>
+
+    <form action="javascript:void(0);" onsubmit="Ordenar()">
+      <label for="lista">Lista de números (separados por comas):</label>
+      <input type="text" id="lista" name="lista"><br><br>
+      <input type="submit" value="Ordenar">
+      <input type="button" onclick="setNumeros()" value="numeros de Prueba">
+    </form>
+
+    <p>
+      Arreglo original: <code id="original"></code>
+    </p>
+    
+    <p>
+      Arreglo ordenado: <code id="ordenado"></code>
+    </p>
+
+    <h1>Buscar</h1>
+    <form action="javascript:void(0);" onsubmit="Buscar()">
+      <label for="lista">Numero a buscar:</label>
+      <input type="text" id="numeroBusqueda" name="lista"><br><br>
+      <input type="submit" value="Buscar">
+    </form>
+    <p>
+      Posicion del valor: <code id="posicion"></code>
+    </p>
+  </body>
+  <script src="index.js"></script>
+</html>
